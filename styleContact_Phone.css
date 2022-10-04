@@ -1,0 +1,210 @@
+/*Assignment 1 - CONTACT ME (PHONE)
+Gabrielle Paguio
+100820990*/
+
+@charset "UTF-8";
+
+#header
+{
+    background-color: white;
+}
+#wrapper
+{
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+#name
+{
+    margin-left: 15%;
+}
+#lastName
+{
+    margin-left: 150%;
+    margin-bottom: 20%;
+}
+#contactMeForm
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 55%;
+}
+#navigation
+{
+    /*makes the background of the navigation column (right) transparent
+    source: https://stackoverflow.com/questions/41418997/html-transparent-text-input-box*/
+    background: transparent;
+    font-size: 59%;
+    text-align: center;
+    margin-right: 40px;
+}
+/*Pages(links) design on navigation bar*/
+/*source: https://www.w3schools.com/css/css_link.asp
+    how to create design for links*/
+a:link
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: transparent;
+    margin: 0;
+    color: #401410;
+    height: 0;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+}
+a:visited
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: transparent;
+    margin: 0;
+    height: 0;
+    color: #401410;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+}
+a:hover
+{
+    border: none;
+    line-height: 50px;
+    background-color: transparent;
+    color: #BF8F73;
+    margin: 0;
+    font-family: 'Arvo', serif;
+    /*first and second values moves the text shadow down by 2px and left 2px, third value 
+    is how much the shadow will be blurred, last value is the colour of the shadow*/
+    text-shadow: 3px 5px 6.7px #BFB699;
+    text-decoration: none;
+}
+a:active
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: transparent;
+    margin: 0;
+    height: 0;
+    color: #BF8F73;
+    font-family: 'Arvo', serif;
+    text-shadow: 3px 5px 6.7px #BFB699;
+    text-decoration: none;
+}
+/*Horizontal line that separates the navigation bar from the content*/
+hr
+{
+    height: 1px;
+    width: 100%;
+    float: right;
+    background-color: #8C8074;
+}
+h1
+{
+    white-space: pre;
+}
+p.contactTitle
+{
+    font-size: 28px;
+    background-color: white;
+    margin-top: 10px;
+    /* margin-right: 400px; */
+    margin-left: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+p
+{
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #733729;
+    background-color: white;
+}
+.submitButton
+{
+    color: white;
+    background-color: #733729;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    border: 10px;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.submitButton:hover
+{
+    color: white;
+    background-color: #BFB699;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    border: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.resetButton
+{
+    color: white;
+    background-color: #733729;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 120px;
+    border: 10px;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.resetButton:hover
+{
+    color: white;
+    background-color: #BFB699;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 120px;
+    border: 10px;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+form
+{
+    background-color: white;
+    margin-top: 10px;
+    /* margin-right: 400px; */
+    margin-left: 40px;
+    resize: none;
+    margin-bottom: 30px;
+}
+body
+{
+    /*angle linear gradient*/
+    background-color: white;
+    /*for mozilla  firefox*/
+    background: -moz-linear-gradient(106deg, #F2E2C4 60%, transparent 75%); 
+    /*for Chrome and Safari*/
+    background: -webkit-linear-gradient(106deg, #F2E2C4 60%, transparent 75%);
+    /*for Opera browser*/
+    background: -o-linear-gradient(106deg, #F2E2C4 60%, transparent 75%); 
+    background: linear-gradient(to 110deg, #BFB699 0%,white 100%); 
+    font-family: 'Nunito Sans', sans-serif;
+}
+#clearBoth
+{
+    clear: both;
+}
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+#footer
+{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}

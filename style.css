@@ -1,0 +1,151 @@
+/*Assignment 1 - MAIN (FULL)
+Gabrielle Paguio
+100820990*/
+
+@charset "UTF-8";
+
+#header
+{
+    background-color: white;
+}
+#wrapper
+{
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+#name
+{
+    font-family: 'Arvo', serif;
+    float:left ;
+    background-color: white;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 7px;
+    color: #8C8074;
+    width: 22%;
+}
+#lastName
+{
+    margin-left: 100px;
+}
+#navigation
+{
+    /*makes the background of the navigation column (right) transparent
+    source: https://stackoverflow.com/questions/41418997/html-transparent-text-input-box*/
+    background: transparent;
+    text-align: right;
+    font-size: 70%;
+    float: right;
+    width: 76%;
+}
+#img
+{
+    text-align: center;
+    word-spacing: 30px;
+    margin-bottom: 60px;
+}
+.picOne, .picTwo
+{
+    width: 300px;
+}
+.facePic
+{
+    height: 300px;
+}
+h2
+{
+    margin-top: 110px;
+    color: #73221A;
+    text-align: center;
+    letter-spacing: 3px;
+}
+/*Pages(links) design on navigation bar*/
+/*source: https://www.w3schools.com/css/css_link.asp
+    how to create design for links*/
+a:link
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: white;
+    margin: 30px;
+    color: #401410;
+    height: 0;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+}
+a:visited
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: white;
+    margin: 30px;
+    height: 0;
+    color: #401410;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+}
+a:hover
+{
+    border: none;
+    line-height: 50px;
+    background-color: white;
+    color: #BF8F73;
+    margin: 30px;
+    font-family: 'Arvo', serif;
+    /*first and second values moves the text shadow down by 2px and left 2px, third value 
+    is how much the shadow will be blurred, last value is the colour of the shadow*/
+    text-shadow: 3px 5px 6.7px #BFB699;
+    text-decoration: none;
+}
+a:active
+{
+    border: none;
+    line-height: 50px;
+    padding: 8px;
+    background-color: white;
+    margin: 30px;
+    height: 0;
+    color: #BF8F73;
+    font-family: 'Arvo', serif;
+    text-shadow: 3px 5px 6.7px #BFB699;
+    text-decoration: none;
+}
+/*Horizontal line that separates the navigation bar from the content*/
+hr
+{
+    height: 1px;
+    width: 100%;
+    float: right;
+    background-color: #8C8074;
+}
+p
+{
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body
+{
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#clearBoth
+{
+    clear: both;
+}
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+#footer
+{
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
