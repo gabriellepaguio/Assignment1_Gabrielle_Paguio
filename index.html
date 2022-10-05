@@ -2,11 +2,14 @@
     Gabrielle Paguio
     100820990-->
 
+<!-- All given links (sources) are cited in the readme file -->
+
 <!DOCTYPE HTML>
 <html>
 
     <head>
         <meta charset = "UTF-8">
+        <!-- stylesheet for index page - links home (index) page to the stylesheet -->
         <link href = "style.css" rel = "stylesheet" type = "text/css">
         <meta name="viewport" content="width=device-width">
         <!-- full-size monitor style sheet-->
@@ -15,36 +18,46 @@
         <link href="styleMain_Tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
         <!-- phone style sheet-->
         <link href="styleMain_Phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+        <!-- adds the font used for my portfolio -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <!-- what will show up on the tab -->
         <title>Porfolio - Gabrielle Paguio</title>
     </head>
-
     <body>
+        <!-- wrapper contains all the contents of the website -->
         <div id = "wrapper">
+            <!-- header contains the name and the navigation bar -->
             <div id = "header">
-                <!-- non-breaking space adds a space; https://blog.hubspot.com/website/html-space#:~:text=HTML%20Non%2DBreaking%20Space%20(,%3B%20or%20.-->
+               <!-- br makes a new line -->
                 <div id="name">
+                    <!-- last name is in a div so that it is easier to implement design in different sizes -->
                     Gabrielle<br><div id="lastName">Paguio</div>
                 </div>
+                <!-- div for my navigation bar; links each of my pages -->
                 <div id = "navigation">
                     <a href="index.html">HOME</a>
-                    <a href="About_Me_Page.html">ABOUT&#160;ME</a>
+                     <!-- non-breaking space adds a space; https://blog.hubspot.com/website/html-space#:~:text=HTML%20Non%2DBreaking%20Space%20(,%3B%20or%20.-->
+                    <a href="About_Me_Page.html">ABOUT&nbsp;ME</a>
                     <a href="Projects_Page.html">PROJECTS</a>
-                    <a href ="Contact_Page.html">CONTACT&#160;ME</a>
+                    <a href ="Contact_Page.html">CONTACT&nbsp;ME</a>
                     <!--makes horizontal line to separate navigation to content-->
                     <hr>
                 </div>
             </div>
             <h2>Welcome to my portfolio!</h2>
+            <!-- all images are in a div with their own classes so that the three or the individual pictures are able to be disgned differently -->
             <div id="img">
-                <img class="picOne" src="homeImage.jpg" >
-                <img class="facePic" src="facePic.JPG">
-                <img class="picTwo" src="homeImage3.jpg">
+                <!-- alt is the alternate text if the image does not show up -->
+                <img class="picOne" src="homeImage.jpg" alt="View of clouds from a plane">
+                <img class="facePic" src="facePic.JPG" alt="Picture of me">
+                <img class="picTwo" src="homeImage3.jpg" alt="View from a hotel">
             </div>
+            <!-- separates content from footer; doesn't allow elements to float within this div -->
             <div id="clearBoth"></div>
+            <!-- footer which contains my contact and copyright -->
             <div id="footer">
                 Contact: gabriellejoanne.paguio@ontariotechu.net <br>
                 © 2022 by Gabrielle Paguio ♡

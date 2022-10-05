@@ -1,4 +1,4 @@
-/*Assignment 1 - CONTACT ME
+/*Assignment 1 - CONTACT ME (FULL)
 Gabrielle Paguio
 100820990*/
 
@@ -29,6 +29,7 @@ Gabrielle Paguio
 {
     margin-left: 100px;
 }
+/* form remains a white box with a darker shawdow to emphasize the form - gives contrast to gradient background */
 #contactMeForm
 {
     background-color: white;
@@ -117,14 +118,11 @@ p.contactTitle
     font-size: 28px;
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     font-family: 'Nunito Sans', sans-serif;
 }
 p
 {
-    font-size: 13px;
-    font-family: 'Nunito Sans', sans-serif;
     color: #733729;
     background-color: white;
 }
@@ -181,7 +179,6 @@ form
 {
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     resize: none;
     margin-bottom: 30px;

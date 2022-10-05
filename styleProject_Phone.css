@@ -16,11 +16,11 @@ Gabrielle Paguio
 }
 #name
 {
-    margin-left: 13%
+    margin-left: 15%;
 }
 #lastName
 {
-    margin-left: 120px;
+    margin-left: 150%;
     margin-bottom: 20%;
 }
 #navigation
@@ -113,9 +113,7 @@ body
 h2
 {
     color: #73221A;
-    /* border-style: solid; */
     border-color: #8C8074;
-    /* border-left: #BF8F73; */
     text-shadow: 3px 2px 6.7px #8c8074;
     font-size: 30px;
     text-decoration: underline;

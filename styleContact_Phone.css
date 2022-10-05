@@ -23,6 +23,7 @@ Gabrielle Paguio
     margin-left: 150%;
     margin-bottom: 20%;
 }
+/* altered to fit the screen of mobile better */
 #contactMeForm
 {
     margin-left: 10%;
@@ -99,16 +100,12 @@ hr
     float: right;
     background-color: #8C8074;
 }
-h1
-{
-    white-space: pre;
-}
+/* design for contact form title */
 p.contactTitle
 {
     font-size: 28px;
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -119,6 +116,7 @@ p
     color: #733729;
     background-color: white;
 }
+/* design for the submit button */
 .submitButton
 {
     color: white;
@@ -131,6 +129,7 @@ p
     font-size: 13px;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* design for submit button once hovered over the button - becomes lighter */
 .submitButton:hover
 {
     color: white;
@@ -144,6 +143,7 @@ p
     font-size: 13px;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* design for reset button */
 .resetButton
 {
     color: white;
@@ -156,6 +156,7 @@ p
     font-size: 13px;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* design for reset button once hovered over it */
 .resetButton:hover
 {
     color: white;
@@ -168,15 +169,16 @@ p
     font-size: 13px;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* design of the contact form */
 form
 {
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     resize: none;
     margin-bottom: 30px;
 }
+/* contains the angle linear gradient for the background of the contact me form */
 body
 {
     /*angle linear gradient*/

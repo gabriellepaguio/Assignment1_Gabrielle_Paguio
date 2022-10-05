@@ -108,7 +108,6 @@ p.contactTitle
     font-size: 28px;
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -172,7 +171,6 @@ form
 {
     background-color: white;
     margin-top: 10px;
-    /* margin-right: 400px; */
     margin-left: 40px;
     resize: none;
     margin-bottom: 30px;

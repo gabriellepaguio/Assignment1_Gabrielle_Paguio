@@ -39,15 +39,22 @@
                     <hr>
                 </div>
             </div>
+            <!-- clears the width of the page which separates the header from the rest of the content of the page -->
             <div id="clearBothTab"></div>
             <div id="content">
+                <!-- left column or the top section when in tablet or phone view -->
                 <div id="leftCol">
+                    <!-- creates the video controls; the video will autoplay and will remain muted unless the user unmutes the video -->
                     <video controls preload="auto" autoplay loop muted id="skatingVideo">
+                        <!-- imports the video from library -->
                         <source src="skatingVid.mov" type="video/mp4">
                     </video>
-                    <img class="facePic" src="facePic.JPG" type="text/img">
+                    <!-- inserts a picture of me and has the alternate text which will appear if the image cannot be loaded -->
+                    <img class="facePic" src="facePic.JPG" type="text/img" alt="Picture of me">
                 </div>
+                <!-- right column or the bottom section when in tablet or phone size -->
                 <div id="rightCol">
+                    <!-- my introduction -->
                     <p>Hi, my name's Gabrielle.<br>I'm in my second year of Networking and  IT Security!</p>
                 </div>
             </div>

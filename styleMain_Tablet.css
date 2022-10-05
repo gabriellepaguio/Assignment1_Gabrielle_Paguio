@@ -1,4 +1,4 @@
-/*Assignment 1 - MAIN (TABLET)
+/*Assignment 1 - MAIN (TABLET) - home page
 Gabrielle Paguio
 100820990*/
 
@@ -46,6 +46,7 @@ Gabrielle Paguio
 .facePic
 {
     width: 78.5%;
+    /* makes the height fit with the given width that will not mess up the picture */
     height: max-content;
 }
 h2

@@ -31,7 +31,7 @@ Gabrielle Paguio
 }
 #navigation
 {
-    /*makes the background of the navigation column (right) transparent
+    /*makes the background of the navigation div transparent
     source: https://stackoverflow.com/questions/41418997/html-transparent-text-input-box*/
     background: transparent;
     text-align: right;
@@ -39,12 +39,14 @@ Gabrielle Paguio
     float: right;
     width: 76%;
 }
+/* ensures that all 3 images in home page are centered and have equal spacing */
 #img
 {
     text-align: center;
     word-spacing: 30px;
     margin-bottom: 60px;
 }
+/* makes all the pictures the same sizes; the taller picture would have the same height as the others' width */
 .picOne, .picTwo
 {
     width: 300px;
@@ -53,16 +55,19 @@ Gabrielle Paguio
 {
     height: 300px;
 }
+/* h2 contains the welcome message */
 h2
 {
     margin-top: 110px;
     color: #73221A;
     text-align: center;
+    /* makes the letters more spaced out */
     letter-spacing: 3px;
 }
 /*Pages(links) design on navigation bar*/
 /*source: https://www.w3schools.com/css/css_link.asp
     how to create design for links*/
+/* what the links would look like on display */
 a:link
 {
     border: none;
@@ -75,6 +80,7 @@ a:link
     font-family: 'Arvo', serif;
     text-decoration: none;
 }
+/* design of the links once the link has already been click on or has been visited already */
 a:visited
 {
     border: none;
@@ -87,6 +93,7 @@ a:visited
     font-family: 'Arvo', serif;
     text-decoration: none;
 }
+/* design on the link when the mouse is hovered over it - lighter colour compared to original */
 a:hover
 {
     border: none;
@@ -95,11 +102,13 @@ a:hover
     color: #BF8F73;
     margin: 30px;
     font-family: 'Arvo', serif;
-    /*first and second values moves the text shadow down by 2px and left 2px, third value 
+    /*first and second values moves the text shadow down by 3px and left 5px, third value 
     is how much the shadow will be blurred, last value is the colour of the shadow*/
     text-shadow: 3px 5px 6.7px #BFB699;
+    /* makes sure that the link is not underlined like other general hyperlinks */
     text-decoration: none;
 }
+/* the design of the link on the nav bar when it is clicked */
 a:active
 {
     border: none;
@@ -135,17 +144,23 @@ body
 {
     clear: both;
 }
+/* Source: https://stackoverflow.com/questions/3443606/make-footer-stick-to-bottom-of-page-correctly 
+    this will make sure the footer will stay at the bottom of the page*/
 html
 {
     position: relative;
     min-height: 100%;
 }
+/* contains the copyright and the contact info */
 #footer
 {
     background-color: transparent;
+    /* width is 100% so that the whole footer would be the bottom of the webpage */
     width: 100%;
+    /* code ensures the footer will remain at the bottom of the screen */
     position: absolute;
     left: 0;
+    /* centers the info */
     text-align: center;
     font-size: 12px;
 }

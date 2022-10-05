@@ -148,6 +148,7 @@ p
 {
     margin-top: 165px;
 }
+/* ensures no floating element within div box */
 #clearBoth
 {
     clear: both;
