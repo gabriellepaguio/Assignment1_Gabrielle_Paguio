@@ -164,7 +164,7 @@ b.title
     margin-bottom: 30px;
     font-size: 12px;
 }
-#clearBoth
+#clearBoth, #clearBothFoot
 {
     clear: both;
 }
